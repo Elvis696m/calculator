@@ -1,0 +1,42 @@
+body{
+    
+    background-color: black;
+    padding: 3px;
+    margin: 8px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50px;
+    color: darkblue;
+    padding: 5px;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#display{
+    width: 500px;
+    height:60px ;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 2rem;
+    color: black;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button:hover{
+    background-color: aqua;
+}
+button:active{
+    background-color: burlywood;
+}
+.operator-btn{
+    background-color: orange;
+}
