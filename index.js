@@ -1,5 +1,4 @@
 const dispaly = document.getElementById('display');
-
 function appendToDisplay(input) {
     dispaly.value += input;
 
